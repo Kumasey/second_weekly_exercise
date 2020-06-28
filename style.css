@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+form{
+    position: fixed;
+    width: 500px;
+    text-align: left;
+    box-align: center;
+  }
+
+h1, h2, p, text{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name{
+    border: 3px lightblue solid;
+   margin-bottom: 10px;
+   width: 400px;
+}
+
+#email{
+    border: 3px green solid;
+   }
+
+ #dob{
+    border: 3px orange solid;
+   }
+
+   .tooltip{
+       display: inline-block;
+       position: relative;
+}
+
+   .tooltip:hover:after{
+    background: green;
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 200px;
+    height: 20px;
+}
